@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2d28921-be84-4e5a-957e-5d6f67da2058" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdventOfCode2022.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/input_day1_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day1/ex1/Main.java" afterDir="false" />
+    <list default="true" id="b2d28921-be84-4e5a-957e-5d6f67da2058" name="Changes" comment="Day 1">
+      <change afterPath="$PROJECT_DIR$/files/input_day2_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,14 +30,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.day1.ex1.Main">
+}</component>
+  <component name="RunManager" selected="Application.day2.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="AdventOfCode2022" />
@@ -51,12 +45,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day1.ex1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day1.ex1.Main" />
+    <configuration name="day1.ex1_2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day1.ex1_2.Main" />
       <module name="AdventOfCode2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day1.ex1.*" />
+          <option name="PATTERN" value="day1.ex1_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day2.Main" />
+      <module name="AdventOfCode2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,7 +73,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.day1.ex1.Main" />
+        <item itemvalue="Application.day2.Main" />
+        <item itemvalue="Application.day1.ex1_2.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -79,8 +87,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669930191709</updated>
-      <workItem from="1669930193062" duration="1030000" />
+      <workItem from="1669930193062" duration="1282000" />
+      <workItem from="1669980197043" duration="855000" />
     </task>
+    <task id="LOCAL-00001" summary="Day 1">
+      <created>1669932214315</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669932214315</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,5 +113,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Day 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 1" />
   </component>
 </project>
